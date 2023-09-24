@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Indie Flower', cursive; */
+
+body {
+    margin: 0%;
+    font-family: 'Lato', sans-serif;
+}
+
+/* header styles */
+
+header{
+    height: 550px;
+    background-color: #E554731A;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hs-left h1{
+    font-size: 68px;
+    color: #272727;
+}
+
+.hs-left p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    color: #27272799;
+}
+
+.hs-left span {
+    padding-left: 75%;
+}
+
+.btn{
+    color: white;
+    font-size: 16px;
+    background-color: #E55473;
+    border-style: hidden;
+    border-radius: 8px;
+    padding: 15px 30px;
+}
+
+.hs-right img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* main styles */
+
+.container {
+    margin: 5% 10%;
+}
+
+/* featured flowers */
+.featured-text{
+    text-align: center;
+}
+
+.tagline{
+    color: #27272799;
+}
+
+.featured-images {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4%;
+}
+
+.featured-images img {
+    width: 100%;
+    height: 100%;
+}
+
+.shape{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.flower1{
+    background-color: #A7216226;
+}
+
+.flower2{
+    background-color: #0597A026;
+}
+
+.flower3{
+    background-color: #477D1126;
+}
+
+
+figcaption{
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* benefits */
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 3% 0% 3% 0%;
+    background-color: #2727270D;
+}
+
+.deal{
+    background-color: #E554730D;
+    height: 400px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.deal-text{
+    text-align: center;
+    padding: 7%;
+}
+
+.deal-text h1 span {
+    color: #E55473;
+}
+
+.deal-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    margin: 0% 3% 0% 3%;
+    padding: 10px;
+    background: #55555523;
+    border: hidden;
+    border-radius: 10px;
+    height: 220px;
+    width: 250px;
+    overflow: hidden;
+}
+
+.card img{
+    height: 50%;
+    width: 50%;
+}
+
+
+.subscription {
+    height: 300px;
+    background-image: url(/images/Rectangle\ 9.png);
+    background-size: cover;
+    text-align: center;
+}
+
+.subscription div {
+    padding-top: 80px;
+}
+
+.email-box {
+    border-style: none;
+    border-radius: 5px;
+    width: 150px;
+    padding: 15px 100px;
+}
+
+footer{
+    color: white;
+    height: 250px;
+    background-color: #111010;
+    text-align: center;
+    padding-top: 3%;
+}
